@@ -1,10 +1,9 @@
 'use client'
 import React from "react";
-import WaterWave from 'react-water-wave';
 
 export const Carousel = ()=>{
     return(
-        <div></div>
+        <div>123123123</div>
         // <WaterWave
         //     style={{
         //         width: "100vw",

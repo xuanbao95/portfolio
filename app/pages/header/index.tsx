@@ -3,7 +3,7 @@ import React from "react";
 
 const HeaderPage = ()=>{
     return(
-        <div className={''}>
+        <div className={'fixed w-full '}>
             456654654
         </div>
     )

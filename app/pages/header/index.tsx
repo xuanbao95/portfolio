@@ -19,6 +19,7 @@ const HeaderPage = ()=>{
                     height={179}
                     alt="Picture of the author"
                     className={'rounded-full'}
+                    priority={true}
                 />
             </div>
             <div>

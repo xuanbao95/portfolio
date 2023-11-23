@@ -1,19 +1,22 @@
 'use client'
 import React from "react";
-
+import WaterWave from 'react-water-wave';
+import avatar from "../../../../../public/avatar.png"
 export const Carousel = ()=>{
+    console.log('avatar', avatar)
     return(
-        <div>123123123</div>
-        // <WaterWave
-        //     style={{
-        //         width: "100vw",
-        //         height: "100vh",
-        //         backgroundSize: "cover",
-        //         background: `url(${"https://res.cloudinary.com/dlq4uayvr/image/upload/v1620152823/performers/annie-sprinkle-the-tongue_mlmijq.jpg"}) no-repeat center center fixed`
-        //     }}
-        //     dropRadius={70}
-        //     perturbance={0.05}
-        //     interactive={true}
-        // ></WaterWave>
+        <WaterWave
+            // imageUrl={"https://images.unsplash.com/photo-1682687220795-796d3f6f7000?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
+            imageUrl={"/avatar.png"}
+            style={{ width: '100%', height: '100%', backgroundSize: 'cover' }}
+            priority={true}
+        >
+            {({ pause, play }) => (
+                <div className="container">
+                    123123
+                </div>
+            )}
+        </WaterWave>
+
     )
 }

@@ -13,7 +13,7 @@ export const Carousel = ()=>{
         >
             {({ pause, play }) => (
                 <div className="container">
-                    123123
+                    12312
                 </div>
             )}
         </WaterWave>
